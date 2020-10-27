@@ -5,7 +5,7 @@ My styles.scss isn't applying... still debugging this
 
 (Check out the screenshots below to see what things are supposed to look like.)
 
-# It looks like order is important in regards to styles.scss and your Kendo styles. Check out [Emma's fix here](https://github.com/twerske/test-angular-RCS/commit/c5f86b4208a110ee1adb1388bf492790b463389c). 
+## 🚨🚨🚨 It looks like order is important in regards to styles.scss and your Kendo styles. Check out [Emma's fix here](https://github.com/twerske/test-angular-RCS/commit/c5f86b4208a110ee1adb1388bf492790b463389c). 🚨🚨🚨
 ## Bundle Size Comparison 10 -> 11
 There was a slight increase in both main & styles.
 
