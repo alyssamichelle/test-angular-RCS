@@ -3,12 +3,9 @@
 My styles.scss isn't applying... still debugging this
 ![broken homepage](https://p192.p3.n0.cdn.getcloudapp.com/items/rRuogkLQ/Screen%20Shot%202020-10-27%20at%2012.48.00%20PM.png?v=c642b55d1eec01014e2aad7f81a10b9f)
 
-Also, oddly, the assets to the pony pic in these cards wasn't working initially.
-![broken pony image in cards](https://p192.p3.n0.cdn.getcloudapp.com/items/E0urX9n6/Screen%20Shot%202020-10-27%20at%2012.48.07%20PM.png?v=7a5dc974fd2c4bbed2c8258459eb7c84)
+(Check out the screenshots below to see what things are supposed to look like.)
 
-👻  Spookily enough, opening VSCODE seemed to magically fix them. I literally didn't touch anything or do anything...
-![pony asset found?!?!](https://p192.p3.n0.cdn.getcloudapp.com/items/rRuogk0v/Screen%20Shot%202020-10-27%20at%2012.53.17%20PM.png?v=f1af49ed74eff8f568595af20bf05d1e)
-
+# It looks like order is important in regards to styles.scss and your Kendo styles. Check out [Emma's fix here](https://github.com/twerske/test-angular-RCS/commit/c5f86b4208a110ee1adb1388bf492790b463389c). 
 ## Bundle Size Comparison 10 -> 11
 There was a slight increase in both main & styles.
 
